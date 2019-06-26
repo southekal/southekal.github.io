@@ -6,15 +6,20 @@
     <style>
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
-      body { font-family: 'Ubuntu Mono'; }
+      body { font-family: 'Ubuntu Mono'; line-height: 2em; }
       h1, h2, h3 {
         font-family: 'Ubuntu Mono';
         font-weight: normal;
+        line-height: 1em;
+      }
+      li {
+        font
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       .inverse {
         background: #272822;
         color: #fff;
+        font-size: 1.5em;
         text-shadow: 0 0 20px #333;
       }
     </style>
@@ -32,14 +37,37 @@
 
       # Agenda
 
-      1. Introduction
-      2. Deep-dive
-      3. ...
+      - Why another integration testing tool?
+      - Features
+      - Examples
+
+      ---
+      class: inverse
+
+      # Why?
+      - Investigating unit tests
+      - Selenium offerings
+        - Requires custom handlers: page load waits, clickable buttons etc
+        - Webdriver API (JSONWire protocol)
+      - TDD on steroids: debugger/network monitoring/stubs
+
+      ---
+      class: inverse
+
+      # Features
+      - Single library install
+        - no other dependencies eg: chromedriver, requests(py)
+      - Philosophy difference: Selenium vs Cypress
+      - Syntax uses familiar tools
+        - mocha, chai
+      - Out of the box dashboard
+        - debugging
+        - screenshots and videos
 
       ---
       class: center, middle, inverse
 
-      # Introduction
+      # Examples
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
