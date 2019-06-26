@@ -12,8 +12,11 @@
         font-weight: normal;
         line-height: 1em;
       }
-      li {
-        font
+      img { width: 300px; background: #fff; }
+      code {
+          background: #F97226;
+          border-radius: 2px;
+          padding: 3px;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       .inverse {
@@ -28,6 +31,7 @@
     <textarea id="source">
       class: center, middle, inverse
 
+      ![devICT](http://devict.org/images/devICT-Logo.svg)
       # Cypress - End to End Testing Tool
       ### cypress.io
       Sandip Southekal
@@ -39,17 +43,22 @@
 
       - Why another integration testing tool?
       - Features
+      - Really interesting features
       - Examples
 
       ---
       class: inverse
 
       # Why?
-      - Investigating unit tests
-      - Selenium offerings
-        - Requires custom handlers: page load waits, clickable buttons etc
-        - Webdriver API (JSONWire protocol)
-      - TDD on steroids: debugger/network monitoring/stubs
+      - Importance of integration tests
+        - unit tests can give you a false sense of security
+        - ...and most were actually integration tests
+
+      - What about thing called `selenium`?
+        - requires custom handlers: page load waits, clickable buttons etc
+        - treated as a separate entity
+
+      - `TDD` on steroids: debugger/network monitoring/stubs
 
       ---
       class: inverse
@@ -57,12 +66,31 @@
       # Features
       - Single library install
         - no other dependencies eg: chromedriver, requests(py)
-      - Philosophy difference: Selenium vs Cypress
+      - Philosophy difference: `Selenium` vs `Cypress`
+        - **selenium** - externally controls the browser through remote commands
+        - **cypress** - node.js server process allowing it to operate at the network layer and alter requests.
       - Syntax uses familiar tools
         - mocha, chai
       - Out of the box dashboard
         - debugging
         - screenshots and videos
+      - Runs against `chrome`, `canary`, `chromium`, `electron headless`
+
+      ---
+      class: inverse
+
+      # Interesting Features
+      - **fixtures**: keeps test repeatable with known and fixed values
+      - can write in `.js`, `.jsx`, `.coffee`, `.cjsx`
+      - can forcibly fire events such as `click`
+      - blacklist hosts
+      - **stub**: responses
+      - **clock**: control `setInterval` or `throttling`. can put you ahead by 'x' sec
+
+      ### Additional Notes:
+      - no ability to tag tests
+      - no `firefox`, `IE` support
+      - ordering of tests when running in parallel is not guaranteed
 
       ---
       class: center, middle, inverse
