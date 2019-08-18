@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "devICT Presents: Cypress (End to End Testing Tool)"
+by: "Sandip Southekal"
 ---
 
       ![devICT](http://devict.org/images/devICT-Logo.svg)
