@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "devICT Presents: Cypress (End to End Testing Tool)"
-by: "Sandip Southekal"
+categories: [talks, devict]
+tags: [cypress, testing, integration testing]
 ---
 
       ![devICT](http://devict.org/images/devICT-Logo.svg)
