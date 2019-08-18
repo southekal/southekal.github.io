@@ -1,2 +1,2 @@
-- [personal website](southekal.com)
+- [personal website](https://southekal.com)
 
