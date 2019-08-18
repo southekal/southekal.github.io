@@ -3,16 +3,12 @@ layout: post
 title: "devICT Presents: Cypress (End to End Testing Tool)"
 ---
 
-    <textarea id="source">
-      class: center, middle, inverse
-
       ![devICT](http://devict.org/images/devICT-Logo.svg)
       # Cypress - End to End Testing Tool
       ### cypress.io
       Sandip Southekal
 
       ---
-      class: inverse
 
       # Agenda
 
@@ -22,7 +18,6 @@ title: "devICT Presents: Cypress (End to End Testing Tool)"
       - Examples
 
       ---
-      class: inverse
 
       # Why?
       - Importance of integration tests
@@ -36,7 +31,6 @@ title: "devICT Presents: Cypress (End to End Testing Tool)"
       - TDD on steroids: debugger/network monitoring/stubs
 
       ---
-      class: inverse
 
       # Features
       - Single library install
@@ -53,7 +47,6 @@ title: "devICT Presents: Cypress (End to End Testing Tool)"
       - Runs against `chrome`, `canary`, `chromium`, `electron headless`
 
       ---
-      class: inverse
 
       # Interesting Features
       - hot reload
@@ -70,7 +63,6 @@ title: "devICT Presents: Cypress (End to End Testing Tool)"
       - ordering of tests when running in parallel is not guaranteed
 
       ---
-      class: inverse
 
       # Examples
       - devict.org
@@ -84,8 +76,3 @@ title: "devICT Presents: Cypress (End to End Testing Tool)"
       #### <u>Not discussed:</u>
       - Parallelization
       - Continuous Integration
-
-    </textarea>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
-    <script>var slideshow = remark.create();</script>
-
