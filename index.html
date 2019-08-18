@@ -46,6 +46,13 @@ Although you can use them, for a more unique website, replace these images with 
         <a href="https://twitter.com/southekal" target="_blank">Twitter</a>
         <hr>
         <a href="#">Talks</a>
+        <ul>
+              {% for post in site.posts %}
+                  <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                                </li>
+                                  {% endfor %}
+                              </ul>
     </div>
 
     <!-- jQuery -->
