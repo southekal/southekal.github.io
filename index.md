@@ -1,4 +1,3 @@
-# Sandip Southekal
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/southekal)
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [linkedin](https://linkedin.com/in/southe)
 <ul>
