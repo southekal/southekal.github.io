@@ -1,5 +1,7 @@
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/southekal)
+
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [linkedin](https://linkedin.com/in/southe)
+
 - <i class="fa fa-book"></i> talks:
   - [2019-07-27-cypress - end to end testing tool](https://southekal.com/talks/cypress-presentation.html)
   - [2017-05-25-amazon-lex - conversational chatbots](https://southekal.com/talks/amazon-lex-chatbot.html)
