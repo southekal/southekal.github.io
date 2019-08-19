@@ -1,6 +1,6 @@
 - <i class="fa fa-github" aria-hidden="true"></i> [github](https://github.com/southekal)
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [linkedin](https://linkedin.com/in/southe)
-- <i class="fas fa-book-open"></i> talks:
+- <i class="fa fa-book-open"></i> talks:
   - [cypress - end to end testing tool](https://southekal.com/talks/cypress-presentation.html)
 
 <ul>
