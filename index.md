@@ -2,7 +2,7 @@
 
 - <i class="fa fa-linkedin" aria-hidden="true"></i> [linkedin](https://linkedin.com/in/southe)
 
-- <i class="fa fa-book"></i> talks:
+- <i class="fa fa-book"></i> talks/slides:
   - [2019-07-27-cypress - end to end testing tool](https://southekal.com/talks/cypress-presentation.html)
   - [2017-05-25-amazon-lex - conversational chatbots](https://southekal.com/talks/amazon-lex-chatbot.html)
   - [2016-10-27-selenium - an introduction to automated integration testing](https://southekal.com/talks/devict-selenium-intro.html)
