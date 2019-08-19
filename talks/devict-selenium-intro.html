@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>devICT - Web Automation With Selenium</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/simple.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/simple.css">
+		
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="http://devict.org/images/devICT-Logo.svg" width=300 height=80>
+					<h2>Web Automation Using Selenium</h2>
+					<p style="font-size:21px">Sandip Southekal</p>
+        			<a href="http://southekal.com" target="_blank" style="font-size:18px;">southekal.com</a>
+				</section>
+
+				<section>
+					<h2>Plan</h2>
+					<section>
+						<ul class="list-group">
+						  <b><li class="list-group-item">What is Selenium?</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <b><li class="list-group-item">Why Web Automation?</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <li class="list-group-item">Why Web Automation?</li>
+						  <b><li class="list-group-item">Types of Selenium</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <li class="list-group-item">Why Web Automation?</li>
+						  <li class="list-group-item">Types of Selenium</li>
+						  <b><li class="list-group-item">Examples</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <li class="list-group-item">Why Web Automation?</li>
+						  <li class="list-group-item">Types of Selenium</li>
+						  <li class="list-group-item">Examples</li>
+						  <b><li class="list-group-item">Pitfalls</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <li class="list-group-item">Why Web Automation?</li>
+						  <li class="list-group-item">Types of Selenium</li>
+						  <li class="list-group-item">Examples</li>
+						  <li class="list-group-item">Pitfalls</li>
+						  <b><li class="list-group-item">Continuous Integration</li></b>
+						</ul>
+					</section>	
+					<section>
+						<ul class="list-group">
+						  <li class="list-group-item">What is Selenium?</li>
+						  <li class="list-group-item">Why Web Automation?</li>
+						  <li class="list-group-item">Types of Selenium</li>
+						  <li class="list-group-item">Examples</li>
+						  <li class="list-group-item">Pitfalls</li>
+						  <li class="list-group-item">Continuous Integration</li>
+						  <b><li class="list-group-item">Other Uses</li></b>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2><b>What is Selenium?</b></h2>
+					<ul>
+						<li>automates browsers <span style="font-size:18px;">(Firefox, Chrome, Safari, PhantomJS etc..)</span></li>
+						<li>mimics user actions</li>
+						<li>JSON Wire Protocol to interact with DOM elements</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><b>Why Web Automation?</b></h2>
+					
+					<section>
+						<h2><b>Famous Last Words</b></h2>
+						<p>clicking on the link does not do anything!</p>
+						<p>looks borked on IE</p>
+						<p>doesn't work on <i>my</i> phone</p>
+						<p>unable to login</p>
+					</section>
+
+				</section>
+
+				<section>
+					<h2><b>Why Selenium?</b></h2>
+					<ul>
+						<li>agile</li>
+						<li>repeatability</>
+						<li>speed</li>
+						<li>rapid feedback</li>
+						<li>unlimited iterations</li>
+						<li>UI is fairly stable</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><b>Types of Selenium</b></h2>
+					<section>
+						<hr>
+						<p><b>Selenium IDE</b></p>
+						<hr>
+						<h3>Pros:</h3>
+						<ul>
+							<li>simple firefox plugin</li>
+							<li>record and playback Tool</li>
+							<li>rapid prototyping</li>
+						</ul>
+						<br><br>
+						<h3>Cons:</h3>
+						<ul>
+							<li>no iteration support</li>
+							<li>no conditional statement support</li>
+							<li>firefox only</li>
+						</ul>
+					</section>
+					<section>
+						<hr>
+						<p><b>Selenium WebDriver</b></p>
+						<hr><br>
+						<ul>
+							<li>supports WebDriver API</li>
+							<li>makes a direct call to the browser</li>
+							<li>cross browser coverage</li>
+							<li>Java, Python, Ruby, Perl, C# + more libraries available</li>
+							<li>find locators via IDs, Classes, CSS Selectors, XPATH, Tags</li>
+						</ul>
+					</section>
+					<section>
+						<hr>
+						<p><b>Selenium Grid</b></p>
+						<hr><br>
+						<ul>
+							<li>run tests in parallel on remote machines</li>
+							<li>connect to a remote machine that has a particular browser version</li>
+							<li>hub and node model</li>
+							<li>setup in house or farm it to Sauce Labs, BrowserStack etc..</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2><b>Pitfalls</b></h2>
+					<ul>
+						<li>adding sleeps</li>
+						<li>javascript elements</li>
+						<li>browser behavior</li>
+						<li>constant site updates<span style="font-size:15px;"> (page object, data attributes)</span> </li>
+						<li>database validation<span style="font-size:15px;"> (running tests in parallel)</span> </li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><b>Continuous Integration</b></h2>
+					<ul>
+						<li>Jenkins</li>
+						<li>Travis</li>
+						<li>Circle CI</li>
+						<li>and many more...</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2><b>Other Use Cases</b></h2>
+					<ul>
+						<li>Web Scraping</li>
+						<li>Monitoring</li>
+						<li>Load Testing</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/lib/js/head.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/marked.js' },
+					{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/markdown/markdown.js' },
+					{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/notes/notes.js', async: true },
+					{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
