@@ -2,4 +2,4 @@
 ## Event - Selenium Conference 2015
 ### Speaker - Sandip Southekal
 
-<iframe width="1485" height="723" src="https://www.youtube.com/embed/-4S6soJAJ7w?t=1666" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="300" src="https://youtu.be/-4S6soJAJ7w?t=1666" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
