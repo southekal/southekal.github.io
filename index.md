@@ -8,7 +8,7 @@
   - [2016-10-27-selenium-an-introduction-to-automated-integration-testing](https://southekal.com/talks/devict-selenium-intro.html)
   - [2015-09-09-behave-primer-on-behavior-driven-testing](https://southekal.com/talks/intro-to-behavior-driven-testing-using-behave.html)
 
-- <i class="fa fa-blog"></i> talks/slides:
+- <i class="fa fa-pen"></i> posts:
 <ul>
   {% for post in site.posts %}
     <li>
@@ -16,3 +16,8 @@
     </li>
   {% endfor %}
 </ul>
+
+
+- <i class="fa fa-random"></i> misc:
+  - [remote work cover story](https://www.bizjournals.com/wichita/news/2018/04/20/cover-story-live-here-work-anywhere.html)
+  - [founded - Trivest Folio a personal investment tool](https://yourstory.com/2013/10/trivest-folio-investment)
