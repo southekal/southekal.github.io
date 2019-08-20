@@ -16,8 +16,3 @@
     </li>
   {% endfor %}
 </ul>
-
-
-- <i class="fa fa-random"></i> misc:
-  - [remote work cover story](https://www.bizjournals.com/wichita/news/2018/04/20/cover-story-live-here-work-anywhere.html)
-  - [founded - Trivest Folio a personal investment tool](https://yourstory.com/2013/10/trivest-folio-investment)
