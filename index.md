@@ -9,6 +9,10 @@
   - [2016-10-27-selenium-an-introduction-to-automated-integration-testing](https://southekal.com/talks/devict-selenium-intro.html)
   - [2015-09-09-behave-primer-on-behavior-driven-testing](https://southekal.com/talks/intro-to-behavior-driven-testing-using-behave.html)
 
+- <i class="fa fa-beer"></i> fun projects:
+  - [nindio: proactive note taking tool for your 1:1's](https://nindio.com)
+  - [goarkad: mimic financial portfolios of top investors](http://goarkad.com)
+
 - <i class="fa fa-pen"></i> posts:
 <ul>
   {% for post in site.posts %}
