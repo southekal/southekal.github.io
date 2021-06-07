@@ -11,7 +11,7 @@
 
 - <i class="fa fa-beer"></i> fun projects:
   - [nindio: proactive note taking tool for your 1:1's](https://www.nindio.com)
-  - [goarkad: mimic financial portfolios of top investors](http://goarkad.com)
+  - [goarkad: mimic financial portfolios of top investors](http://goarkad.herokuapp.com)
 
 - <i class="fa fa-pen"></i> posts:
 <ul>
